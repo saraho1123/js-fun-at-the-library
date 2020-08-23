@@ -23,7 +23,7 @@ function listTitles(shelfGenre) {
 
 function searchShelf(shelf, title) {
   for (var i = 0; i < shelf.length; i++) {
-    if (shelf[i].title.includestitle) {
+    if (shelf[i].title.includes(title)) {
       return true;
     } else {
     }
