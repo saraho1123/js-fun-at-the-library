@@ -65,10 +65,3 @@ problem.
   - Run `npm test test/Librarian-test.js`  
   - Take time to refactor your solutions. Is this the best approach to solving the problem?
     Is there a different way you could make the tests pass?  
-
-
-#### Notes to ask during review:
-  - Is it better to declare a variable inside of a function and return the variable, or to just return the obj/array/etc that the function is declaring?
-    - Example: in book.js buildMainCharacter() ... would it be better to declare a variable that is assigned to the object and then return the variable? Library.js createLibrary() is done this way.
-
-  - Are several for loops or nested for loops better? I have a feeling a nested is. I'm thinking mainly of checkoutBook() in Library.js. 
